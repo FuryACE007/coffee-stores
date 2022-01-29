@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import Card from "../components/Card";
 
 export default function Home() {
   const exploreButtonClickHandler = () =>{
@@ -8,6 +9,7 @@ export default function Home() {
     <div className= "" >
       <main className="">
         <Banner buttonText= "Explore" exploreClickHandler= {exploreButtonClickHandler} />
+        <Card />
       </main>
     </div>
   )
