@@ -15,7 +15,7 @@ const Banner = (props) => {
       <h1 className=" text-white text-6xl md:text-8xl font-braga font-medium mt-5">
         Coffee <span className=" text-orange-500"> Connoiseur </span>
       </h1>
-      <p className="font-josefinSlab_SemiBold text-xl md:text-2xl text-orange-50 py-2 pl-1">
+      <p className="font-josefinSlab_SemiBold text-xl md:text-3xl text-orange-50 py-2 pl-1">
         Discover amazing coffee shops near you!
       </p>
 
