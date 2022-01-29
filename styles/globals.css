@@ -7,4 +7,21 @@
         font-family: "Braga";
         src: url(/fonts/Braga.otf);
     }
+    @font-face {
+        font-family: "JosefinSans-Light";
+        src: url(/fonts/Josefin_Sans/JosefinSans-Light.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSans-Regular";
+        src: url(/fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSlab-Regular";
+        src: url(/fonts/Josefin_Slab/JosefinSlab-Regular.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSlab-Light";
+        src: url(/fonts/Josefin_Slab/JosefinSlab-Light.ttf);
+    }
+    
 }

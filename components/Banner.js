@@ -15,12 +15,12 @@ const Banner = (props) => {
       <h1 className=" text-white text-4xl md:text-8xl font-braga font-medium mt-5">
         Coffee <span className=" text-orange-500"> Connoiseur </span>
       </h1>
-      <p className=" text-lg font-thin md:text-2xl text-orange-50 py-2 pl-1">
+      <p className=" text-xl font-josefinSlab_Regular md:text-2xl text-orange-50 py-2 pl-1">
         Discover amazing coffee shops near you!
       </p>
 
       <button
-        className=" bg-orange-500 text-white px-5 py-3 md:text-xl md:px-8 mxdpy-4 mt-4 rounded-tl-none rounded-b-3xl rounded-r-3xl hover:rounded-none hover:bg-orange-600 active:shadow-lg active:shadow-orange-700 ease-in duration-200"
+        className=" bg-orange-500 text-white px-5 py-3 md:text-xl md:px-6 mxdpy-4 mt-4 rounded-tl-none rounded-b-3xl rounded-r-3xl hover:rounded-none hover:bg-orange-600 active:shadow-lg active:shadow-orange-700 ease-in duration-200"
         onClick={props.exploreClickHandler}
       >
         {" "}

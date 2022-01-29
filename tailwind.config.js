@@ -6,7 +6,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        braga: "'Braga', serif"
+        braga: "'Braga', serif",
+        josefinSans_Light: "'JosefinSans-Light', sans",
+        josefinSans_Regular: "'JosefinSans-Regular', sans",
+        josefinSlab_Light: "'JosefinSlab-Light', serif",
+        josefinSlab_Regular: "'JosefinSlab-Regular', serif"
       }
     },
   },
