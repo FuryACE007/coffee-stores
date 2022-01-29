@@ -16,12 +16,44 @@
         src: url(/fonts/Josefin_Sans/JosefinSans-Regular.ttf);
     }
     @font-face {
+        font-family: "JosefinSans-Medium";
+        src: url(/fonts/Josefin_Sans/JosefinSans-Medium.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSans-SemiBold";
+        src: url(/fonts/Josefin_Sans/JosefinSans-SemiBold.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSans-Italic";
+        src: url(/fonts/Josefin_Sans/JosefinSans-Italic.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSans-Bold";
+        src: url(/fonts/Josefin_Sans/JosefinSans-Bold.ttf);
+    }
+    @font-face {
         font-family: "JosefinSlab-Regular";
         src: url(/fonts/Josefin_Slab/JosefinSlab-Regular.ttf);
     }
     @font-face {
         font-family: "JosefinSlab-Light";
         src: url(/fonts/Josefin_Slab/JosefinSlab-Light.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSlab-Medium";
+        src: url(/fonts/Josefin_Slab/JosefinSlab-Medium.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSlab-Italic";
+        src: url(/fonts/Josefin_Slab/JosefinSlab-Italic.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSlab-SemiBold";
+        src: url(/fonts/Josefin_Slab/JosefinSlab-SemiBold.ttf);
+    }
+    @font-face {
+        font-family: "JosefinSlab-Bold";
+        src: url(/fonts/Josefin_Slab/JosefinSlab-Bold.ttf);
     }
     
 }
