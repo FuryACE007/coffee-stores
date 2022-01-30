@@ -1,17 +1,20 @@
 .background {
   background: rgba(255, 249, 245, 0.1);
   box-shadow: 0 8px 32px 0 rgba(2, 1, 0, 0.37);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 20px;
+  border: 1px solid rgba(2, 1, 0, 0.37);
+
 }
 
 @media (hover: hover) {
   .background:hover {
-    background: rgba(255, 249, 245, 0.15);
+    background: rgba( 255, 255, 255, 0.4 );
     box-shadow: none;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
 }

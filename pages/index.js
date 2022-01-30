@@ -2,6 +2,7 @@ import Banner from "../components/Banner";
 import Card from "../components/Card";
 import { CardLayout } from "../components/CardLayout";
 import storeImg from "../public/cafe.webp";
+import coffeStores from "../data/coffee-stores.json";
 
 export default function Home() {
   const exploreButtonClickHandler = () => {
@@ -14,28 +15,20 @@ export default function Home() {
           buttonText="Explore"
           exploreClickHandler={exploreButtonClickHandler}
         />
-        <h1 className=" text-orange-50 font-josefinSans_SemiBold text-4xl px-1 mt-20 mb-7"> Stores near you... </h1>
+        <h1 className=" text-orange-50 font-josefinSans_SemiBold text-4xl px-1 mt-20 mb-7">
+          Stores in Bangalore...
+        </h1>
         <CardLayout>
-          <Card
-            name="Cafe Coffee Day"
-            imgUrl={storeImg}
-            href="/coffee-store/cafe-coffee-day"
-          />
-          <Card
-            name="Cafe Coffee Day"
-            imgUrl={storeImg}
-            href="/coffee-store/cafe-coffee-day"
-          />
-          <Card
-            name="Cafe Coffee Day"
-            imgUrl={storeImg}
-            href="/coffee-store/cafe-coffee-day"
-          />
-          <Card
-            name="Cafe Coffee Day"
-            imgUrl={storeImg}
-            href="/coffee-store/cafe-coffee-day"
-          />
+          {coffeStores.map((coffeStore) => {
+            return (
+              <Card
+                key ={coffeStore.id}
+                name={coffeStore.name}
+                imgUrl={coffeStore.imgUrl}
+                href={`/coffee-store/${coffeStore.id}`}
+              />
+            );
+          })}
         </CardLayout>
       </main>
     </div>
