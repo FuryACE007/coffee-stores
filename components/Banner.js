@@ -20,7 +20,7 @@ const Banner = (props) => {
       </p>
 
       <button
-        className=" bg-orange-500 font-josefinSans_Regular text-white px-5 pb-3 pt-4 md:text-lg md:px-6 mxdpy-4 mt-4 rounded-tl-none rounded-b-3xl rounded-r-3xl hover:rounded-none hover:bg-orange-600 active:shadow-lg active:shadow-orange-700 ease-in duration-200"
+        className=" bg-orange-500 font-josefinSans_Regular text-white px-5 pb-3 pt-4 md:text-lg md:px-6 md:py-4 mt-4 rounded-tl-none rounded-b-3xl rounded-r-3xl hover:rounded-none hover:bg-orange-600 active:shadow-lg active:shadow-orange-700 ease-in duration-200"
         onClick={props.exploreClickHandler}
       >
         {" "}
