@@ -47,7 +47,7 @@ export async function getStaticProps(context) {
   // coffeeStores.map( coffeeStore =>{
   //   return console.log(coffeeStore.location.address)
   // } )
-  console.log(coffeeStores);
+  // console.log(coffeeStores);
   return {
     props: {
       coffeeStores,
